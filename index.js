@@ -1,7 +1,7 @@
 const express = require("express");
 const PORT = 80;
-const { connectToMongoose } = require("./first/connection");
-const userRoutes = require("./routes/url");
+const { connectToMongoose } = require("/first/connection");
+const userRoutes = require("/routes/url");
 
 const app = new express();
 
